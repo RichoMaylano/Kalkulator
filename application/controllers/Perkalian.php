@@ -14,15 +14,13 @@ class Perkalian extends CI_Controller
 
     public function perkalian()
     {
-        // $a = $_POST['angka1'];
-        // $b = $_POST['angka2'];
-        // $jumlah = $a * $b;
-        // echo "Hasil Perkalian \t";
-        // echo "<input type=text step=any name=jumlah value='$jumlah'>";
+      
+       
         $angka1 = $this->input->post("angka1");
         $angka2 = $this->input->post("angka2");
         $jumlah = $angka1 * $angka2;
         $data['jumlah'] = $jumlah;
-        $this->load->view('tampilanperkalian', $data);
+        echo "Hasil dari Perkalian ".$angka1." dan ".$angka2." adalah ".$jumlah;
+        // $this->load->view('tampilanperkalian', $data);
     }
 }
