@@ -29,7 +29,7 @@ class Pengurangan extends CI_Controller {
         $a=$_POST['bil1'];
         $b=$_POST['bil2'];
         $hasil=$a-$b;
-        echo "Hasil dari " .$a. " - " .$b. " adalah ";
-        echo "<input type=text step=any name=kurang value='$hasil'>";
+        echo "Hasil dari " .$a. " - " .$b. " adalah " .$hasil;
+        // echo "<input type=text step=any name=kurang value='$hasil'>";
     }
 }
