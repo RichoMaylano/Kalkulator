@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container mt-3">
         <div class="row">
             <div class="col-12">
                 <div class="card">
@@ -24,7 +24,7 @@
                                 <form  action="Perkalian/perkalian" method="post" enctype="multipart/form-data">
                                     <input type="number" step="any" name="angka1"> x
                                     <input type="number" step="any" name="angka2">
-                                    <input type="submit" name="submit" value="=">
+                                    <!-- <input type="submit" name="submit" value="="> -->
                                     <!-- <input type="text" name="jumlah" value=""> -->
                                     <button type="submit" class="btn btn-primary">Submit</button>
                                     <button type="reset" class="btn btn-danger">Reset</button>
